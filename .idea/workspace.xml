@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89acfb67-1eb2-489e-a99a-8e1fccc5d167" name="Default Changelist" comment="" />
+    <list default="true" id="89acfb67-1eb2-489e-a99a-8e1fccc5d167" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,13 +30,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1fdn5tjBVciqYOdKzGxhSxhzAjA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sampledata/csv" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -43,26 +54,13 @@
       <recent name="$PROJECT_DIR$/src/sampledata/csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnumerationTester">
-    <configuration name="AbstractionAndEncapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.objectoriented.abstractionandencapsulation.AbstractionAndEncapsulation" />
+  <component name="RunManager" selected="Application.StackTester">
+    <configuration name="BitSetTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.datastructures.bitset.BitSetTester" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.objectoriented.abstractionandencapsulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTimeDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.basics.datetime.DateTimeDisplay" />
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.christien.basics.datetime.*" />
+          <option name="PATTERN" value="com.christien.datastructures.bitset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,19 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceAndPolymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.objectoriented.inheritanceandpolymorphism.InheritanceAndPolymorphism" />
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.christien.objectoriented.inheritanceandpolymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.christien.objectoriented.interfaces.InterfaceExample" />
       <module name="Data-Structures" />
@@ -109,13 +94,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.datastructures.stack.StackTester" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.christien.datastructures.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VectorTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.datastructures.vectors.VectorTester" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.christien.datastructures.vectors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackTester" />
+        <item itemvalue="Application.VectorTester" />
+        <item itemvalue="Application.BitSetTester" />
         <item itemvalue="Application.EnumerationTester" />
         <item itemvalue="Application.InterfaceExample" />
-        <item itemvalue="Application.AbstractionAndEncapsulation" />
-        <item itemvalue="Application.InheritanceAndPolymorphism" />
-        <item itemvalue="Application.DateTimeDisplay" />
       </list>
     </recent_temporary>
   </component>
@@ -151,29 +162,29 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="430" y="27" width="552" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1602070505396" />
-    <state width="1807" height="390" key="GridCell.Tab.0.bottom" timestamp="1602528719387">
+    <state width="1807" height="390" key="GridCell.Tab.0.bottom" timestamp="1602735211521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1602171754122" />
-    <state width="1807" height="390" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602528719387" />
+    <state width="1807" height="390" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211521" />
     <state width="1253" height="250" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497400" />
-    <state width="1807" height="390" key="GridCell.Tab.0.center" timestamp="1602528719387">
+    <state width="1807" height="390" key="GridCell.Tab.0.center" timestamp="1602735211521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1602171754118" />
-    <state width="1807" height="390" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602528719387" />
+    <state width="1807" height="390" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211521" />
     <state width="1253" height="250" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497397" />
-    <state width="1807" height="390" key="GridCell.Tab.0.left" timestamp="1602528719387">
+    <state width="1807" height="390" key="GridCell.Tab.0.left" timestamp="1602735211520">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1602171754116" />
-    <state width="1807" height="390" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602528719387" />
+    <state width="1807" height="390" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211520" />
     <state width="1253" height="250" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497394" />
-    <state width="1807" height="390" key="GridCell.Tab.0.right" timestamp="1602528719387">
+    <state width="1807" height="390" key="GridCell.Tab.0.right" timestamp="1602735211521">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1602171754120" />
-    <state width="1807" height="390" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602528719387" />
+    <state width="1807" height="390" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211521" />
     <state width="1253" height="250" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497399" />
     <state width="1807" height="340" key="GridCell.Tab.1.bottom" timestamp="1602525548235">
       <screen x="67" y="27" width="1853" height="1053" />
