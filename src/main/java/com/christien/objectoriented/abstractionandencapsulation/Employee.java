@@ -6,6 +6,8 @@ public abstract class Employee {
     private String name;
     private String address;
 
+    protected int emplyeeDiscount = 50;
+
     public Employee(int id, String name, String address) {
         this.id = id;
         this.name = name;

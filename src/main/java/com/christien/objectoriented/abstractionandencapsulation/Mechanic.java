@@ -12,6 +12,8 @@ public class Mechanic extends Employee {
     public void mailCheck() {
         System.out.println("Within mailCheck of Salary class ");
         System.out.println("Mailing check to " + getName() + " with salary " + salary);
+        emplyeeDiscount += 50;
+        System.out.println("employee discount " + emplyeeDiscount);
     }
 
     public double getSalary() {

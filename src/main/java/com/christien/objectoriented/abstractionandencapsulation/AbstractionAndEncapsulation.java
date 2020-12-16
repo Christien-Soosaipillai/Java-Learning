@@ -25,16 +25,24 @@ public class AbstractionAndEncapsulation {
     public static void main(String[] args){
 
         //Employee e = new Employee(1,"Christien", "868 Baylawn Drive");  //throws an error since class is abstract, however we can inherit...
+        //abstract classes you can say new Employee however an object can be Employee
         Mechanic mechanic = new Mechanic(1,"Christien","Some address", 18.00);
         System.out.println(mechanic.computePay());
         mechanic.getSalary();
         mechanic.mailCheck();
         mechanic.stateJobTitle();
+        System.out.println();
 
         Employee employee = new Mechanic(2, "Me","Some other address",14.00);
         System.out.println(employee.computePay());
         employee.mailCheck();
         employee.stateJobTitle();
+        System.out.println();
+
+        Welder welder = new Welder(3, "Some Dude", "address");
+        System.out.println("here: " + welder.computePay());
+        welder.mailCheck();
+        welder.stateJobTitle();
     }
 
 }
