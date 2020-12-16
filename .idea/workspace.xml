@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="89acfb67-1eb2-489e-a99a-8e1fccc5d167" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/basics/arrays/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/basics/arrays/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/basics/arrays/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/basics/arrays/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/objectoriented/abstractionandencapsulation/AbstractionAndEncapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/objectoriented/abstractionandencapsulation/AbstractionAndEncapsulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/objectoriented/abstractionandencapsulation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/objectoriented/abstractionandencapsulation/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/objectoriented/abstractionandencapsulation/Mechanic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/objectoriented/abstractionandencapsulation/Mechanic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/christien/basics/arrays/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/christien/basics/arrays/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/christien/basics/arrays/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/christien/basics/arrays/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/christien/objectoriented/abstractionandencapsulation/AbstractionAndEncapsulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/christien/objectoriented/abstractionandencapsulation/AbstractionAndEncapsulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/christien/objectoriented/abstractionandencapsulation/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/christien/objectoriented/abstractionandencapsulation/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/christien/objectoriented/abstractionandencapsulation/Mechanic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/christien/objectoriented/abstractionandencapsulation/Mechanic.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +35,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1fdn5tjBVciqYOdKzGxhSxhzAjA" />
@@ -35,10 +47,10 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,13 +66,13 @@
       <recent name="$PROJECT_DIR$/src/sampledata/csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackTester">
-    <configuration name="BitSetTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.datastructures.bitset.BitSetTester" />
+  <component name="RunManager" selected="Application.Exercise1">
+    <configuration name="AnonymousDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.basics.anonymousinnerclass.AnonymousDemo" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.datastructures.bitset.*" />
+          <option name="PATTERN" value="com.christien.basics.anonymousinnerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumerationTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.datastructures.enumeration.EnumerationTester" />
+    <configuration name="AnonymousInnerClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.basics.anonymousinnerclass.AnonymousInnerClassDemo" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.datastructures.enumeration.*" />
+          <option name="PATTERN" value="com.christien.basics.anonymousinnerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.objectoriented.interfaces.InterfaceExample" />
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.examples.exerciseone.Exercise1" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.objectoriented.interfaces.*" />
+          <option name="PATTERN" value="com.christien.javaeight.examples.exerciseone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.datastructures.stack.StackTester" />
+    <configuration name="RunnableLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.examples.RunnableLambda" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.datastructures.stack.*" />
+          <option name="PATTERN" value="com.christien.javaeight.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.datastructures.vectors.VectorTester" />
+    <configuration name="TypeInferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.beginning.TypeInferenceExample" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.datastructures.vectors.*" />
+          <option name="PATTERN" value="com.christien.javaeight.beginning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,14 +134,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackTester" />
-        <item itemvalue="Application.VectorTester" />
-        <item itemvalue="Application.BitSetTester" />
-        <item itemvalue="Application.EnumerationTester" />
-        <item itemvalue="Application.InterfaceExample" />
+        <item itemvalue="Application.Exercise1" />
+        <item itemvalue="Application.AnonymousInnerClassDemo" />
+        <item itemvalue="Application.AnonymousDemo" />
+        <item itemvalue="Application.RunnableLambda" />
+        <item itemvalue="Application.TypeInferenceExample" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -144,12 +157,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="719" y="144" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1602525280900">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="1157" y="144" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1608100853493">
+      <screen x="72" y="27" width="3768" height="1053" />
     </state>
     <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1602172858757" />
     <state x="719" y="144" width="534" height="908" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602525280900" />
     <state x="417" y="58" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.3773.1053@67.27.3773.1053" timestamp="1602286894376" />
+    <state x="722" y="144" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607496029660" />
+    <state x="1157" y="144" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.3768.1053@72.27.3768.1053" timestamp="1608100853493" />
     <state x="422" y="66" width="579" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1602072242493">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -162,30 +177,42 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="430" y="27" width="552" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1602070505396" />
-    <state width="1807" height="390" key="GridCell.Tab.0.bottom" timestamp="1602735211521">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1802" height="376" key="GridCell.Tab.0.bottom" timestamp="1608103374664">
+      <screen x="72" y="27" width="3768" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1602171754122" />
     <state width="1807" height="390" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211521" />
     <state width="1253" height="250" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497400" />
-    <state width="1807" height="390" key="GridCell.Tab.0.center" timestamp="1602735211521">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1248" height="376" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1607378713623" />
+    <state width="1802" height="376" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607497167262" />
+    <state width="1802" height="376" key="GridCell.Tab.0.bottom/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374664" />
+    <state width="1802" height="376" key="GridCell.Tab.0.center" timestamp="1608103374662">
+      <screen x="72" y="27" width="3768" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1602171754118" />
     <state width="1807" height="390" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211521" />
     <state width="1253" height="250" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497397" />
-    <state width="1807" height="390" key="GridCell.Tab.0.left" timestamp="1602735211520">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1248" height="376" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1607378713622" />
+    <state width="1802" height="376" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607497167262" />
+    <state width="1802" height="376" key="GridCell.Tab.0.center/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374662" />
+    <state width="1802" height="376" key="GridCell.Tab.0.left" timestamp="1608103374662">
+      <screen x="72" y="27" width="3768" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1602171754116" />
     <state width="1807" height="390" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211520" />
     <state width="1253" height="250" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497394" />
-    <state width="1807" height="390" key="GridCell.Tab.0.right" timestamp="1602735211521">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1248" height="376" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1607378713622" />
+    <state width="1802" height="376" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607497167262" />
+    <state width="1802" height="376" key="GridCell.Tab.0.left/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374662" />
+    <state width="1802" height="376" key="GridCell.Tab.0.right" timestamp="1608103374663">
+      <screen x="72" y="27" width="3768" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1602171754120" />
     <state width="1807" height="390" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211521" />
     <state width="1253" height="250" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497399" />
+    <state width="1248" height="376" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1607378713622" />
+    <state width="1802" height="376" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1607497167262" />
+    <state width="1802" height="376" key="GridCell.Tab.0.right/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374663" />
     <state width="1807" height="340" key="GridCell.Tab.1.bottom" timestamp="1602525548235">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

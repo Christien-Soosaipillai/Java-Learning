@@ -1,0 +1,52 @@
+Functional Programing vs Object Oriented Programming
+
+Object Oriented Programming:a model that organizes software design around data, objects, rather than functions
+        and logic. An object is defined as a data field that has unique attributes(vars) and behaviours(functions).
+
+
+Functional Programming: building software by composing pure functions, avoiding shared states, mutable data
+        and side-effects. Treats computation as the evaluation of mathematical functions and avoids changing
+        states and mutable data. programming is done with expressions or declarations rather than statements.
+
+Lambda Expression: a lambda expression lets you create an anonymous class that implements a specific type of
+        interface called a functional interface— which has one and only one abstract method. A lambda expression
+        is a concise way to create an anonymous class that implements a functional interface.
+
+Functional Interface: An interface having only 1 abstract method but could contain many default methods
+
+Steps for creating a lambda expression in java:
+    -Step 1: Have OR Create a new interface
+    -Step 2: Define your interface such that it matches with the functionality of your lambda expression, for example:
+
+        lambda functionality:
+        -void function that takes no arguments and prints a string
+
+        interface:
+        interface Foo{
+            void bar();
+        }
+    -Step 3: In the class you wish to use the lambda Declare a variable of the same type(Foo in this case) and have it equal the lamba. We
+        must also keep in mind the steps for writing a lambda, for example:
+
+        What we want: Foo greetFunction = () -> System.out.println("Hello World");
+
+
+        regular method call:      public void perform() {
+                                        System.out.println("Hello World");
+                                    }
+        lambda call: -Step 1: take out the access modifier since its not attached to a class(meaning it is apart of the body of the code and has no effect)
+                     -Step 2: take away the name since we are referring to the function as greetFunction
+                     -Step 3: take away the return type, the compiler now determines the return type based off the interface, no need to declare twice
+                     -Step 4: add the "->" to declare it is a lambda expression
+                     -Optional: IFF the lambda is only one line you can declare inline like the example above and not use the "return" keyword. Otherwise, we add
+                                the  "{ ...some code... return something; };" after our "() -> "
+
+Some more lambda declaration examples:
+    addFunction = (int a, int b) -> a + b;
+
+    safeDivide = (int a, int b) -> {
+        if(b == 0) { return 0;}
+        return a / b;
+    }
+
+    stringLength = (String s) -> s.length();
