@@ -9,7 +9,7 @@ public class Greeter {
     public static void main(String[] args){
         //Regular Version
         Greeter greeter = new Greeter();
-        //creating a class that implements the greeting interface and provide the logic for that imterface implementation
+        //creating a class that implements the greeting interface and provide the logic for that interface implementation
         Greeting helloWorld = new HelloWorldGreeting();
 //        greeter.greet(helloWorld);
 
@@ -24,6 +24,8 @@ public class Greeter {
         //This is how you execute lambda expressions. By calling the interface method on it, just as if it were an instance of a class
         greetingLambda.perform();
 
+        //Anonymous Inner Class - It is an inner class without a name and for which only a single object is created.
+        //                        Name is not written but object to it is created
         Greeting innerClassGreeting =  new Greeting() {
             @Override
             public void perform() {

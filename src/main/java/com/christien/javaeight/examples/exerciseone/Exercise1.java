@@ -28,6 +28,28 @@ public class Exercise1 {
                 new Person("Inte","Jerz", 12)
         );
 
+        List<Person> people2 = new ArrayList<>(Arrays.asList(
+                new Person("Christien", "Soos", 24),
+                new Person("Foo","Barz", 12),
+                new Person("Inte","Jerz", 12)
+        ));
+
+
+        /* people.remove(1);
+        *
+        * Exception in thread "main" java.lang.UnsupportedOperationException
+	    * at java.base/java.util.AbstractList.remove(AbstractList.java:167)
+	    * at com.christien.javaeight.examples.exerciseone.Exercise1.main(Exercise1.java:38)
+        *
+        *
+        * people2.remove(1)
+        *
+        * No errors, runs just fine
+        *
+        * */
+
+
+
         //step 1: sort list by lastname
         System.out.println("Sorting list by lastName");
         //JAVA 7 SOLUTION

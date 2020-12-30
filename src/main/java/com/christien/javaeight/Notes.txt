@@ -35,11 +35,21 @@ Steps for creating a lambda expression in java:
                                         System.out.println("Hello World");
                                     }
         lambda call: -Step 1: take out the access modifier since its not attached to a class(meaning it is apart of the body of the code and has no effect)
+                              =>    void perform() {
+                                        System.out.println("Hello World");
+                                    }
                      -Step 2: take away the name since we are referring to the function as greetFunction
+                              =>    void(){
+                                        System.out.println("Hello World");
+                                    }
                      -Step 3: take away the return type, the compiler now determines the return type based off the interface, no need to declare twice
-                     -Step 4: add the "->" to declare it is a lambda expression
+                              =>    (){
+                                        System.out.println("Hello World");
+                                    }
+                     -Step 4: add the "->" after the '()' to declare it is a lambda expression
                      -Optional: IFF the lambda is only one line you can declare inline like the example above and not use the "return" keyword. Otherwise, we add
                                 the  "{ ...some code... return something; };" after our "() -> "
+                              =>   Foo foo = () -> System.out.println("Hello World")
 
 Some more lambda declaration examples:
     addFunction = (int a, int b) -> a + b;
