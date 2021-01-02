@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
 
 public class Exercise1 {
 
@@ -80,17 +82,41 @@ public class Exercise1 {
         //JAVA 7 SOLUTION
         for(Person p: people){
             if(p.getFirstName().toLowerCase().startsWith("c")){
-                System.out.println(p.getLastName());
+                System.out.println(p.getFirstName());
             }
         }
 
         //LAMBDA SOLUTION
         people.forEach(e->{
             if(e.getFirstName().toLowerCase().startsWith("c")){
-                System.out.println(e.getLastName());
+                System.out.println(e.getFirstName());
             }
         });
+        printConditional(people, p -> p.getFirstName().toLowerCase().startsWith("c"));
+        printCustomConditional(people, p -> p.getFirstName().toLowerCase().startsWith("c"), p -> System.out.println(p.getFirstName()  + " meets the custom condition"));
 
 
     }
+
+    public static void printConditional(List<Person> people, Predicate<Person> predicate){
+        for (Person person : people) {
+            if(predicate.test(person)){
+                System.out.println(person.getFirstName() + " meets the condition");
+            }
+        }
+    }
+
+    public static void printCustomConditional(List<Person> people, Predicate<Person> predicate, Consumer<Person> consumer){
+        for (Person person : people) {
+            if(predicate.test(person)){
+                consumer.accept(person);
+            }
+        }
+    }
+
+
+}
+
+interface Condition{
+    boolean test(Person person);
 }
