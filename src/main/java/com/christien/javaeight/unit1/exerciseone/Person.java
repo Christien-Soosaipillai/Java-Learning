@@ -1,4 +1,4 @@
-package com.christien.javaeight.examples.exerciseone;
+package com.christien.javaeight.unit1.exerciseone;
 
 public class Person {
 

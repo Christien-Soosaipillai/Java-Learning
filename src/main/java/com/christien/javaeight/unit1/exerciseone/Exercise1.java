@@ -1,4 +1,4 @@
-package com.christien.javaeight.examples.exerciseone;
+package com.christien.javaeight.unit1.exerciseone;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -41,7 +41,7 @@ public class Exercise1 {
         *
         * Exception in thread "main" java.lang.UnsupportedOperationException
 	    * at java.base/java.util.AbstractList.remove(AbstractList.java:167)
-	    * at com.christien.javaeight.examples.exerciseone.Exercise1.main(Exercise1.java:38)
+	    * at com.christien.javaeight.beginning.exerciseone.Exercise1.main(ExerciseWithPredicate.java:38)
         *
         *
         * people2.remove(1)
@@ -93,27 +93,17 @@ public class Exercise1 {
             }
         });
         printConditional(people, p -> p.getFirstName().toLowerCase().startsWith("c"));
-        printCustomConditional(people, p -> p.getFirstName().toLowerCase().startsWith("c"), p -> System.out.println(p.getFirstName()  + " meets the custom condition"));
 
 
     }
 
-    public static void printConditional(List<Person> people, Predicate<Person> predicate){
+    public static void printConditional(List<Person> people, Condition condition){
         for (Person person : people) {
-            if(predicate.test(person)){
+            if(condition.test(person)){
                 System.out.println(person.getFirstName() + " meets the condition");
             }
         }
     }
-
-    public static void printCustomConditional(List<Person> people, Predicate<Person> predicate, Consumer<Person> consumer){
-        for (Person person : people) {
-            if(predicate.test(person)){
-                consumer.accept(person);
-            }
-        }
-    }
-
 
 }
 

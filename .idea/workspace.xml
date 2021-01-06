@@ -3,10 +3,35 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="89acfb67-1eb2-489e-a99a-8e1fccc5d167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/examples/exerciseone/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/examples/exerciseone/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/beginning/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit1/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/beginning/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit1/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/beginning/HelloWorldGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit1/HelloWorldGreeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/beginning/TypeInferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit1/TypeInferenceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/examples/RunnableLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit1/RunnableLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/examples/exerciseone/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit1/exerciseone/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/examples/exerciseone/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit1/exerciseone/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +69,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit2" />
+      <recent name="$PROJECT_DIR$/src/sampledata/csv" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/sampledata/csv" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sampledata/csv" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise1">
+  <component name="RunManager" selected="Application.PredicateExample">
     <configuration name="AnonymousDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.christien.basics.anonymousinnerclass.AnonymousDemo" />
       <module name="Data-Structures" />
@@ -85,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.examples.exerciseone.Exercise1" />
+      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.unit1.exerciseone.Exercise1" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.javaeight.examples.exerciseone.*" />
+          <option name="PATTERN" value="com.christien.javaeight.unit1.exerciseone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.examples.RunnableLambda" />
+    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.unit2.PredicateExample" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.javaeight.examples.*" />
+          <option name="PATTERN" value="com.christien.javaeight.unit2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredicateExample" />
         <item itemvalue="Application.Exercise1" />
         <item itemvalue="Application.LambdaLesson" />
         <item itemvalue="Application.AnonymousInnerClassDemo" />
         <item itemvalue="Application.AnonymousDemo" />
-        <item itemvalue="Application.RunnableLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +172,17 @@
       <updated>1596556656359</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="144" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1609611856413">
@@ -168,41 +205,41 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="430" y="27" width="552" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1602070505396" />
-    <state width="1802" height="375" key="GridCell.Tab.0.bottom" timestamp="1609619492909">
+    <state width="1802" height="375" key="GridCell.Tab.0.bottom" timestamp="1609619656069">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1602171754122" />
     <state width="1807" height="390" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211521" />
     <state width="1253" height="250" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497400" />
     <state width="1248" height="239" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1609333557557" />
-    <state width="1802" height="375" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1609619492909" />
+    <state width="1802" height="375" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1609619656069" />
     <state width="1802" height="376" key="GridCell.Tab.0.bottom/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374664" />
-    <state width="1802" height="375" key="GridCell.Tab.0.center" timestamp="1609619492909">
+    <state width="1802" height="375" key="GridCell.Tab.0.center" timestamp="1609619656069">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1602171754118" />
     <state width="1807" height="390" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211521" />
     <state width="1253" height="250" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497397" />
     <state width="1248" height="239" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1609333557556" />
-    <state width="1802" height="375" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1609619492909" />
+    <state width="1802" height="375" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1609619656069" />
     <state width="1802" height="376" key="GridCell.Tab.0.center/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374662" />
-    <state width="1802" height="375" key="GridCell.Tab.0.left" timestamp="1609619492909">
+    <state width="1802" height="375" key="GridCell.Tab.0.left" timestamp="1609619656068">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1602171754116" />
     <state width="1807" height="390" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211520" />
     <state width="1253" height="250" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497394" />
     <state width="1248" height="239" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1609333557554" />
-    <state width="1802" height="375" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1609619492909" />
+    <state width="1802" height="375" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1609619656068" />
     <state width="1802" height="376" key="GridCell.Tab.0.left/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374662" />
-    <state width="1802" height="375" key="GridCell.Tab.0.right" timestamp="1609619492909">
+    <state width="1802" height="375" key="GridCell.Tab.0.right" timestamp="1609619656069">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1253" height="250" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1602171754120" />
     <state width="1807" height="390" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1602735211521" />
     <state width="1253" height="250" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1602288497399" />
     <state width="1248" height="239" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1609333557556" />
-    <state width="1802" height="375" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1609619492909" />
+    <state width="1802" height="375" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1609619656069" />
     <state width="1802" height="376" key="GridCell.Tab.0.right/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374663" />
     <state width="1807" height="340" key="GridCell.Tab.1.bottom" timestamp="1602525548235">
       <screen x="67" y="27" width="1853" height="1053" />

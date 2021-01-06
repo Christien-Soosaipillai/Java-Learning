@@ -1,4 +1,4 @@
-package com.christien.javaeight.examples;
+package com.christien.javaeight.unit1;
 
 public class RunnableLambda {
 

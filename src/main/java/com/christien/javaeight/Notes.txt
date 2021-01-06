@@ -4,7 +4,7 @@ Object Oriented Programming:a model that organizes software design around data, 
         and logic. An object is defined as a data field that has unique attributes(vars) and behaviours(functions).
 
 
-Functional Programming: building software by composing pure functions, avoiding shared states, mutable data
+Functional Programming: building software composed of pure functions, avoiding shared states, mutable data
         and side-effects. Treats computation as the evaluation of mathematical functions and avoids changing
         states and mutable data. programming is done with expressions or declarations rather than statements.
 

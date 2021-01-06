@@ -1,4 +1,4 @@
-package com.christien.javaeight.beginning;
+package com.christien.javaeight.unit1;
 
 @FunctionalInterface
 public interface Greeting {
