@@ -23,6 +23,19 @@ public class InterfaceExample {
         tiger.getAnimalName("tiger");
         tiger.sleep();
 
+        new Animal(){
+
+            @Override
+            public void animalSound() {
+
+            }
+
+            @Override
+            public void sleep() {
+
+            }
+        };
+
     }
 
 }

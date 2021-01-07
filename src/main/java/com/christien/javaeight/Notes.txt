@@ -14,6 +14,14 @@ Lambda Expression: a lambda expression lets you create an anonymous class that i
 
 Functional Interface: An interface having only 1 abstract method but could contain many default methods
 
+Closure: A closure is a persistent scope which holds on to local variables even after the code execution has moved
+        out of that block. Languages which support closure (such as JavaScript, Swift, and Ruby) will allow you to
+        keep a reference to a scope (including its parent scopes), even after the block in which those variables were
+        declared has finished executing, provided you keep a reference to that block or function somewhere.
+
+Note: "effectively final" is something new introduced in Java SE 8. It is defined as a variable or parameter that
+is not declared as final, whose value is never changed after it is initialized.
+
 Steps for creating a lambda expression in java:
     -Step 1: Have OR Create a new interface
     -Step 2: Define your interface such that it matches with the functionality of your lambda expression, for example:
