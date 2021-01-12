@@ -68,3 +68,26 @@ Some more lambda declaration examples:
     }
 
     stringLength = (String s) -> s.length();
+
+
+Anonymous Class: an inner class without a name and for which only a single object is created. An anonymous inner class can be
+            useful when making an instance of an object with certain “extras” such as overloading methods of a class or interface,
+            without having to actually subclass a class. Anonymous inner classes are useful in writing implementation classes
+            for listener interfaces in graphics programming.
+
+         syntax is as follows:
+            ->Extending a class:   new ParentClass(parameters...) {...}
+            eg.LearningMaterial material = new Book("Design Patterns") {
+                    @Override
+                    public String description() {
+                        return "Famous GoF book.";
+                    }
+                }
+
+            ->Implementing an Interface: new InterfaceName(){...}
+            eg.Runnable runnable = new Runnable() {
+                    @Override
+                    public void run() {
+                        ...
+                    }
+                }
