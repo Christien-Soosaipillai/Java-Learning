@@ -25,12 +25,14 @@ public class AnonymousInnerClassDemo {
             @Override
             public void getAge() {
                 // printing  age
-                System.out.print("Age is "+ x);
+                System.out.print("Age is "+ this.x); //'this.' always refers to current anonymous inner class object wwhich is why we can access 'x'
+
+
             }
         };
         oj1.getAge();
 
-        //Age age = () -> System.out.print("Age is 24" + x);
+        //Age age = () -> System.out.print("Age is 24" + x);    //'this.' refers to current outer class (in this case class AnonymousInnerClassDemo)
     }
 
     interface Age {
