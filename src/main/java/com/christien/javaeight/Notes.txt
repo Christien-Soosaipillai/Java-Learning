@@ -33,7 +33,7 @@ Steps for creating a lambda expression in java:
         interface Foo{
             void bar();
         }
-    -Step 3: In the class you wish to use the lambda Declare a variable of the same type(Foo in this case) and have it equal the lamba. We
+    -Step 3: In the class you wish to use the lambda Declare a variable of the same type(Foo in this case) and have it equal the lambda. We
         must also keep in mind the steps for writing a lambda, for example:
 
         What we want: Foo greetFunction = () -> System.out.println("Hello World");

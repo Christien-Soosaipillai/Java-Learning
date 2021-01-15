@@ -15,9 +15,11 @@ public class RunnableLambda {
         //Same thing can be done with a lambda as shown below
         //Since lambdas are just implementation of an inline anonymous class with a single abstract method to implement
         //inline lambda implementation
-        Runnable runnable = () -> System.out.println("Printed inside LAMBDA runnable");
         Thread lambdaThread = new Thread( () -> System.out.println("Printed inside LAMBDA runnable"));
         lambdaThread.run();
+
+        Runnable runnable = () -> System.out.println("Printed inside LAMBDA runnable");
+        runnable.run();
 
     }
 

@@ -3,7 +3,7 @@ package com.christien.javaeight.unit1;
 public class TypeInferenceExample {
 
     public static void main(String[] args){
-        //type inference is done based off of the left hand side of the below functionl equation
+        //type inference is done based off of the left hand side of the below functional equation
         //the compiler looks at myLambda and understands it has to match the lambda expression on the right with the type StringLengthLambda
         StringLengthLambda myLambda = (s) -> s.length();
 
