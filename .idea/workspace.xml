@@ -24,7 +24,37 @@
   <component name="ChangeListManager">
     <list default="true" id="89acfb67-1eb2-489e-a99a-8e1fccc5d167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/ChuckeyCheeseCheckout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/ChuckeyCheeseCheckout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/modules/BillingModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/modules/BillingModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/services/BillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/services/BillingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/services/ChuckeyCheeseBillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/services/ChuckeyCheeseBillingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/services/CreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/services/CreditCardProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/services/DatabaseTransactionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/services/DatabaseTransactionLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/services/PaypalCreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/services/PaypalCreditCardProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/services/TemporaryLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/services/TemporaryLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection/services/TransactionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingdependencyinjection/services/TransactionLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/ChuckeyCheeseCheckout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/ChuckeyCheeseCheckout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/factories/CreditCardProcessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/factories/CreditCardProcessorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/factories/TransactionLogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/factories/TransactionLogFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/services/BillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/services/BillingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/services/ChuckeyCheeseBillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/services/ChuckeyCheeseBillingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/services/CreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/services/CreditCardProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/services/DatabaseTransactionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/services/DatabaseTransactionLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/services/PaypalCreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/services/PaypalCreditCardProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingfactories/services/TransactionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingfactories/services/TransactionLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingnewkeyword/ChuckeyCheeseCheckout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingnewkeyword/ChuckeyCheeseCheckout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingnewkeyword/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingnewkeyword/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingnewkeyword/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingnewkeyword/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingnewkeyword/services/BillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingnewkeyword/services/BillingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingnewkeyword/services/ChuckeyCheeseBillingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingnewkeyword/services/ChuckeyCheeseBillingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingnewkeyword/services/CreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingnewkeyword/services/CreditCardProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingnewkeyword/services/DatabaseTransactionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingnewkeyword/services/DatabaseTransactionLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingnewkeyword/services/PaypalCreditCardProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingnewkeyword/services/PaypalCreditCardProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingnewkeyword/services/TransactionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/googleguice/a_introduction/usingnewkeyword/services/TransactionLog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +92,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/christien/googleguice/scopes" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.christien.googleguice.introduction.withoutguice" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sampledata/csv" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/christien/googleguice/scopes" />
       <recent name="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/usingdependencyinjection" />
       <recent name="$PROJECT_DIR$/src/main/java/com/christien/googleguice/introduction/factories" />
       <recent name="$PROJECT_DIR$/src/main/java/com/christien/javaeight/unit2" />
@@ -80,30 +111,18 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.christien.googleguice.introduction.withoutguice.services" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sampledata/csv" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.christien.googleguice.scopes" />
+      <recent name="com.christien.googleguice.introduction.withoutguice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChuckeyCheeseCheckout (2)">
-    <configuration name="ChuckeyCheeseCheckout (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.introduction.usingfactories.ChuckeyCheeseCheckout" />
+  <component name="RunManager" selected="Application.TestProvider">
+    <configuration name="BindingAnnotationTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.c_bindingannotations.BindingAnnotationTester" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.googleguice.introduction.usingfactories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChuckeyCheeseCheckout (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.introduction.usingdependencyinjection.ChuckeyCheeseCheckout" />
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.christien.googleguice.introduction.usingdependencyinjection.*" />
+          <option name="PATTERN" value="com.christien.googleguice.c_bindingannotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +131,11 @@
       </method>
     </configuration>
     <configuration name="ChuckeyCheeseCheckout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.introduction.usingnewkeyword.ChuckeyCheeseCheckout" />
+      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.a_introduction.usingdependencyinjection.ChuckeyCheeseCheckout" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.googleguice.introduction.usingnewkeyword.*" />
+          <option name="PATTERN" value="com.christien.googleguice.a_introduction.usingdependencyinjection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Review" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.unit4.Review" />
+    <configuration name="TestConstantBindings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.e_constantBindings.TestConstantBindings" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.javaeight.unit4.*" />
+          <option name="PATTERN" value="com.christien.googleguice.e_constantBindings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +156,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.unit3.streams.StreamExample" />
+    <configuration name="TestNamedBindings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.d_namedbindings.TestNamedBindings" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.javaeight.unit3.streams.*" />
+          <option name="PATTERN" value="com.christien.googleguice.d_namedbindings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProvider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.f_provide.provider.TestProvider" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.christien.googleguice.f_provide.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProvidesAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.f_provide.providesAnno.TestProvidesAnnotation" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.christien.googleguice.f_provide.providesAnno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChuckeyCheeseCheckout (2)" />
-        <item itemvalue="Application.ChuckeyCheeseCheckout (1)" />
-        <item itemvalue="Application.ChuckeyCheeseCheckout" />
-        <item itemvalue="Application.Review" />
-        <item itemvalue="Application.StreamExample" />
+        <item itemvalue="Application.TestProvider" />
+        <item itemvalue="Application.TestProvidesAnnotation" />
+        <item itemvalue="Application.TestConstantBindings" />
+        <item itemvalue="Application.TestNamedBindings" />
+        <item itemvalue="Application.BindingAnnotationTester" />
       </list>
     </recent_temporary>
   </component>
@@ -187,38 +232,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="722" y="144" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1611508710357">
+    <state x="722" y="144" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1612152264414">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="722" y="144" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611508710357" />
+    <state x="722" y="144" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1612152264414" />
     <state x="1157" y="144" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.3768.1053@72.27.3768.1053" timestamp="1608100853493" />
-    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611096126381">
+    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611794163970">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611096126381" />
-    <state width="1802" height="375" key="GridCell.Tab.0.bottom" timestamp="1611509928113">
+    <state x="729" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611794163970" />
+    <state width="1802" height="375" key="GridCell.Tab.0.bottom" timestamp="1612152727913">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1248" height="239" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1609333557557" />
-    <state width="1802" height="375" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611509928113" />
+    <state width="1802" height="375" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1612152727913" />
     <state width="1802" height="376" key="GridCell.Tab.0.bottom/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374664" />
-    <state width="1802" height="375" key="GridCell.Tab.0.center" timestamp="1611509928113">
+    <state width="1802" height="375" key="GridCell.Tab.0.center" timestamp="1612152727912">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1248" height="239" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1609333557556" />
-    <state width="1802" height="375" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611509928113" />
+    <state width="1802" height="375" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1612152727912" />
     <state width="1802" height="376" key="GridCell.Tab.0.center/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374662" />
-    <state width="1802" height="375" key="GridCell.Tab.0.left" timestamp="1611509928113">
+    <state width="1802" height="375" key="GridCell.Tab.0.left" timestamp="1612152727912">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1248" height="239" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1609333557554" />
-    <state width="1802" height="375" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611509928113" />
+    <state width="1802" height="375" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1612152727912" />
     <state width="1802" height="376" key="GridCell.Tab.0.left/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374662" />
-    <state width="1802" height="375" key="GridCell.Tab.0.right" timestamp="1611509928113">
+    <state width="1802" height="375" key="GridCell.Tab.0.right" timestamp="1612152727913">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1248" height="239" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1609333557556" />
-    <state width="1802" height="375" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611509928113" />
+    <state width="1802" height="375" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1612152727913" />
     <state width="1802" height="376" key="GridCell.Tab.0.right/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374663" />
     <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1610334450789">
       <screen x="72" y="27" width="1848" height="1053" />
@@ -240,6 +285,14 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="777" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1610418279764" />
+    <state x="714" y="358" width="705" height="398" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1612151866756">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="714" y="358" width="705" height="398" key="com.intellij.testIntegration.createTest.CreateTestDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1612151866756" />
+    <state x="687" y="162" width="900" height="783" key="find.popup" timestamp="1611788259594">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="687" y="162" width="900" height="783" key="find.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611788259594" />
     <state x="305" y="155" width="1372" height="803" key="new project wizard" timestamp="1610230583306">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
