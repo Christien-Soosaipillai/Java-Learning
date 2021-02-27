@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89acfb67-1eb2-489e-a99a-8e1fccc5d167" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/streams/StreamCollectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/christien/javaeight/streams/StreamTerminal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src/sampledata/csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamIntermediate">
+  <component name="RunManager" selected="Application.StreamTerminal">
     <configuration name="NumberTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.christien.test.NumberTester" />
       <module name="Data-Structures" />
@@ -125,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProvider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.christien.googleguice.f_provide.provider.TestProvider" />
+    <configuration name="StreamTerminal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.christien.javaeight.streams.StreamTerminal" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.christien.googleguice.f_provide.provider.*" />
+          <option name="PATTERN" value="com.christien.javaeight.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamTerminal" />
         <item itemvalue="Application.StreamIntermediate" />
         <item itemvalue="Application.StreamBuilder" />
         <item itemvalue="Application.NumberTester" />
         <item itemvalue="Application.TestUntargettedBindings" />
-        <item itemvalue="Application.TestProvider" />
       </list>
     </recent_temporary>
   </component>
@@ -205,46 +206,46 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="779" y="270" width="717" height="574" key="FileChooserDialogImpl/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614304207781" />
-    <state width="1802" height="375" key="GridCell.Tab.0.bottom" timestamp="1614317674304">
+    <state width="1802" height="375" key="GridCell.Tab.0.bottom" timestamp="1614454693470">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1248" height="239" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1609333557557" />
-    <state width="1802" height="375" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614317674304" />
+    <state width="1802" height="375" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614454693470" />
     <state width="1802" height="376" key="GridCell.Tab.0.bottom/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374664" />
-    <state width="1802" height="375" key="GridCell.Tab.0.center" timestamp="1614317674304">
+    <state width="1802" height="375" key="GridCell.Tab.0.center" timestamp="1614454693470">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1248" height="239" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1609333557556" />
-    <state width="1802" height="375" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614317674304" />
+    <state width="1802" height="375" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614454693470" />
     <state width="1802" height="376" key="GridCell.Tab.0.center/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374662" />
-    <state width="1802" height="375" key="GridCell.Tab.0.left" timestamp="1614317674303">
+    <state width="1802" height="375" key="GridCell.Tab.0.left" timestamp="1614454693470">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1248" height="239" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1609333557554" />
-    <state width="1802" height="375" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614317674303" />
+    <state width="1802" height="375" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614454693470" />
     <state width="1802" height="376" key="GridCell.Tab.0.left/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374662" />
-    <state width="1802" height="375" key="GridCell.Tab.0.right" timestamp="1614317674304">
+    <state width="1802" height="375" key="GridCell.Tab.0.right" timestamp="1614454693470">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1248" height="239" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1609333557556" />
-    <state width="1802" height="375" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614317674304" />
+    <state width="1802" height="375" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614454693470" />
     <state width="1802" height="376" key="GridCell.Tab.0.right/72.27.3768.1053@72.27.3768.1053" timestamp="1608103374663" />
-    <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1614316825979">
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1614453428367">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614316825979" />
-    <state width="1802" height="340" key="GridCell.Tab.1.center" timestamp="1614316825979">
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614453428367" />
+    <state width="1802" height="340" key="GridCell.Tab.1.center" timestamp="1614453428367">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614316825979" />
-    <state width="1802" height="340" key="GridCell.Tab.1.left" timestamp="1614316825979">
+    <state width="1802" height="340" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614453428367" />
+    <state width="1802" height="340" key="GridCell.Tab.1.left" timestamp="1614453428366">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614316825979" />
-    <state width="1802" height="340" key="GridCell.Tab.1.right" timestamp="1614316825979">
+    <state width="1802" height="340" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614453428366" />
+    <state width="1802" height="340" key="GridCell.Tab.1.right" timestamp="1614453428367">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="340" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614316825979" />
+    <state width="1802" height="340" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1614453428367" />
     <state x="777" y="468" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610418279764">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
